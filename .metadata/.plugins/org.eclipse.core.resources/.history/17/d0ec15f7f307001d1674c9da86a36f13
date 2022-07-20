@@ -1,0 +1,18 @@
+/*
+ * ak7010.c
+ *
+ *  Created on: Jul 20, 2022
+ *      Author: crmar
+ */
+
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdarg.h>
+#include "ak7010.h"
+
+
+MOTOR_FEEDBACK motor_data(uint8_t d[8]){
+
+	int16_t (d[0] << 8 | d[1] )
+}
+
