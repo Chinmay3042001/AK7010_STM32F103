@@ -514,3 +514,98 @@
 2022-07-20 11:19:42,792 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3244mS.
 2022-07-20 11:19:42,792 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
 2022-07-20 11:19:42,808 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 16mS.
+2022-07-20 12:19:48,994 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:19:49,043 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2022-07-20 12:19:49,044 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Component.java:2101)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Component.java:2075)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(JPopupMenu.java:940)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(BasicComboPopup.java:235)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(BasicComboPopup.java:1218)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(BasicComboPopup.java:897)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(BasicTableUI.java:967)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1129)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1057)
+2022-07-20 12:19:49,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6632)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2022-07-20 12:19:49,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2022-07-20 12:19:49,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2022-07-20 12:19:49,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2022-07-20 12:19:49,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2022-07-20 12:19:57,187 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:19:57,256 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:20:02,673 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:20:02,736 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:21:09,359 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:21:09,440 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:21:14,323 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:21:14,392 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:21:37,280 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:22:18,814 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:22:22,524 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-07-20 12:22:26,089 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 866934544 Bytes (1073741824)
+2022-07-20 12:22:28,170 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 637483320 Bytes (1073741824)
+2022-07-20 12:22:32,627 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 694864960 Bytes (1073741824)
+2022-07-20 12:22:33,072 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-07-20 12:22:33,072 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-07-20 12:22:33,072 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-07-20 12:22:33,072 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: CAN
+2022-07-20 12:22:33,072 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-07-20 12:22:33,072 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-07-20 12:22:33,446 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\license.tmp_save
+2022-07-20 12:22:33,587 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\license.tmp
+2022-07-20 12:22:33,645 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\gpio.tmp_save
+2022-07-20 12:22:33,686 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\gpio.tmp
+2022-07-20 12:22:33,755 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\stm32f1xx_it.c_save
+2022-07-20 12:22:33,856 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\stm32f1xx_it.c
+2022-07-20 12:22:33,871 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\stm32f1xx_it.h_save
+2022-07-20 12:22:33,934 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\stm32f1xx_it.h
+2022-07-20 12:22:33,956 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\stm32f1xx_hal_msp.c_save
+2022-07-20 12:22:34,134 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\stm32f1xx_hal_msp.c
+2022-07-20 12:22:34,134 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\system.tmp_save
+2022-07-20 12:22:34,188 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\MXTmpFiles\system.tmp
+2022-07-20 12:22:34,203 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-07-20 12:22:34,288 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\stm32f1xx_hal_conf.h
+2022-07-20 12:22:34,335 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\main.h_save
+2022-07-20 12:22:34,435 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Inc\main.h
+2022-07-20 12:22:34,451 [INFO] CodeEngine:239 - oldGeneratedFile, C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\main.c_save
+2022-07-20 12:22:34,557 [INFO] CodeEngine:257 - Generated code: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\AK7010\ak7010_device_driver\Core\Src\main.c
+2022-07-20 12:22:35,724 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 252mS.
+2022-07-20 12:22:35,724 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-07-20 12:22:36,198 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-07-20 12:22:38,056 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2332mS.
+2022-07-20 12:22:38,056 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-07-20 12:22:38,056 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.

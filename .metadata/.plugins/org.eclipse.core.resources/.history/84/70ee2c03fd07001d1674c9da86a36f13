@@ -9,8 +9,6 @@
 #include <stdint.h>
 #include <stdarg.h>
 #include "ak7010.h"
-#include "main.h"
-
 
 /** RECIEVE **/
 MOTOR_FEEDBACK motor_data(uint8_t d[8]){
@@ -32,12 +30,6 @@ int CAN_PACKET_SET_POS_SPD = 6; //Position Velocity loop mode
 
 
 
-void CAN_Send_Motor_Configurations(CAN_TxHeaderTypeDef Tx){
-
-	Tx.IDE = CAN_ID_EXT;
-	Tx.StdId = 0x00;
-	Tx.RTR = CAN_RTR_DATA;
-	Tx.DLC = 8;
 
 
 //CanTxMsg TxMessage;

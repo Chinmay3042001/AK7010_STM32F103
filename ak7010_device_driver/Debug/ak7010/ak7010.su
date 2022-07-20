@@ -1,1 +1,11 @@
-ak7010.c:14:16:motor_data	32	static
+ak7010.c:16:16:motor_data	32	static
+ak7010.c:35:6:CAN_Send_Motor_Configurations	8	static
+ak7010.c:55:6:buffer_append_int32	24	static
+ak7010.c:63:6:buffer_append_int16	24	static
+ak7010.c:69:6:comm_can_set_duty	24	static
+ak7010.c:77:6:comm_can_set_current	24	static
+ak7010.c:85:6:comm_can_set_cb	24	static
+ak7010.c:94:6:comm_can_set_rpm	24	static
+ak7010.c:104:6:comm_can_set_pos	24	static
+ak7010.c:114:6:comm_can_set_origin	24	static
+ak7010.c:123:6:comm_can_set_pos_spd	40	static
